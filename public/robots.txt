@@ -1,0 +1,27 @@
+User-agent: *
+
+Disallow: /
+
+Disallow: /posts/colton-sucks/
+
+Disallow: /tags/colton/
+
+Disallow: /posts/
+
+Disallow: /tags/tag/
+
+Disallow: /tags/
+
+Disallow: /posts/dev-blog/
+
+Disallow: /posts/next-note/
+
+Disallow: /posts/notecopy/
+
+Disallow: /categories/
+
+Disallow: /categories/css/
+
+Disallow: /categories/javascript/
+
+Disallow: /categories/uncategories/
