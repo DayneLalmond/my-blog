@@ -20,8 +20,4 @@ Disallow: /posts/notecopy/
 
 Disallow: /categories/
 
-Disallow: /categories/css/
-
-Disallow: /categories/javascript/
-
 Disallow: /categories/uncategories/
