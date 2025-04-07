@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ahoy There! on TITLE IN HUGO.TOML</title>
-    <link>https://blog.daylo.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Ahoy There! on TITLE IN HUGO.TOML</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.daylo.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colton</title>
-      <link>https://blog.daylo.dev/posts/colton-sucks/</link>
+      <link>http://localhost:1313/posts/colton-sucks/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.daylo.dev/posts/colton-sucks/</guid>
+      <guid>http://localhost:1313/posts/colton-sucks/</guid>
       <description>&lt;h1 id=&#34;a-woof&#34;&gt;A Woof&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;</description>
     </item>
     <item>
       <title>test</title>
-      <link>https://blog.daylo.dev/posts/dev-blog/</link>
+      <link>http://localhost:1313/posts/dev-blog/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.daylo.dev/posts/dev-blog/</guid>
-      <description>&lt;h1 id=&#34;check&#34;&gt;Check&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://blog.daylo.dev/images/8af1f66b486b7b6397918a08f768a67b-removebg-preview.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/dev-blog/</guid>
+      <description>&lt;h1 id=&#34;check&#34;&gt;Check&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/8af1f66b486b7b6397918a08f768a67b-removebg-preview.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>test</title>
-      <link>https://blog.daylo.dev/posts/next-note/</link>
+      <link>http://localhost:1313/posts/next-note/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.daylo.dev/posts/next-note/</guid>
+      <guid>http://localhost:1313/posts/next-note/</guid>
       <description>&lt;h1 id=&#34;next&#34;&gt;Next&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;</description>
     </item>
     <item>
       <title>test</title>
-      <link>https://blog.daylo.dev/posts/notecopy/</link>
+      <link>http://localhost:1313/posts/notecopy/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.daylo.dev/posts/notecopy/</guid>
+      <guid>http://localhost:1313/posts/notecopy/</guid>
       <description>&lt;h1 id=&#34;next&#34;&gt;Next&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Colton on TITLE IN HUGO.TOML</title>
-    <link>https://blog.daylo.dev/tags/colton/</link>
+    <link>http://localhost:1313/tags/colton/</link>
     <description>Recent content in Colton on TITLE IN HUGO.TOML</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>{year}</copyright>
     <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://blog.daylo.dev/tags/colton/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/colton/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Colton</title>
-      <link>https://blog.daylo.dev/posts/colton-sucks/</link>
+      <link>http://localhost:1313/posts/colton-sucks/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://blog.daylo.dev/posts/colton-sucks/</guid>
+      <guid>http://localhost:1313/posts/colton-sucks/</guid>
       <description>&lt;h1 id=&#34;a-woof&#34;&gt;A Woof&lt;/h1&gt;&#xA;&lt;p&gt;This is a test.&lt;/p&gt;</description>
     </item>
   </channel>

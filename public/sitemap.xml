@@ -2,39 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.daylo.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/posts/colton-sucks/</loc>
+    <loc>http://localhost:1313/posts/colton-sucks/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/tags/colton/</loc>
+    <loc>http://localhost:1313/tags/colton/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/tags/tag/</loc>
+    <loc>http://localhost:1313/tags/tag/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/posts/dev-blog/</loc>
+    <loc>http://localhost:1313/posts/dev-blog/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/posts/next-note/</loc>
+    <loc>http://localhost:1313/posts/next-note/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/posts/notecopy/</loc>
+    <loc>http://localhost:1313/posts/notecopy/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://blog.daylo.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://blog.daylo.dev/categories/css/</loc>
+    <loc>http://localhost:1313/categories/css/</loc>
   </url><url>
-    <loc>https://blog.daylo.dev/categories/javascript/</loc>
+    <loc>http://localhost:1313/categories/javascript/</loc>
   </url><url>
-    <loc>https://blog.daylo.dev/categories/uncategories/</loc>
+    <loc>http://localhost:1313/categories/uncategories/</loc>
   </url>
 </urlset>
