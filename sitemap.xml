@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://blog.daylo.dev/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/posts/colton-sucks/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/tags/colton/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/posts/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/tags/tag/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/tags/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/posts/dev-blog/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/posts/next-note/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/posts/notecopy/</loc>
+    <lastmod>2025-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://blog.daylo.dev/categories/</loc>
+  </url><url>
+    <loc>https://blog.daylo.dev/categories/uncategories/</loc>
+  </url>
+</urlset>
