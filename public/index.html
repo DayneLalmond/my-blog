@@ -1,179 +1,276 @@
 <!DOCTYPE html>
-<html lang="en-US" class="scroll-smooth dark">
-  <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="stylesheet" href="/themes/enchanted-lowkey/assets/css/output.css">
-  <head>
-	<meta name="generator" content="Hugo 0.145.0">
+<html lang="en" dir="auto">
 
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>TITLE IN HUGO.TOML</title>
-<meta
-  name="description"
-  content="Hello"
-/>
-<link rel="canonical" href="http://localhost:1313/" />
-<link rel="robots" href="/robots.txt" />
+<head>
+	<meta name="generator" content="Hugo 0.147.1"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My Blog</title>
 
-<link rel="icon" type="image/x-icon" href="/icons/favicon.ico" />
+<meta name="description" content="Hello">
+<meta name="author" content="">
+<link rel="canonical" href="https://blog.daylo.dev/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://blog.daylo.dev/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://blog.daylo.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://blog.daylo.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://blog.daylo.dev/apple-touch-icon.png">
+<link rel="mask-icon" href="https://blog.daylo.dev/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://blog.daylo.dev/index.xml">
+<link rel="alternate" hreflang="en" href="https://blog.daylo.dev/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
 
-<link rel="stylesheet" href="http://localhost:1313/css/app.css" /></head>
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
 
-  <body class="max-w-screen-md mx-auto px-2.5">
-    <div class="header">
-      <header class="flex flex-col sm:flex-row items-center gap-5 sm:gap-10 pt-16 py-12">
-   
+    </style>
+</noscript><meta property="og:url" content="https://blog.daylo.dev/">
+  <meta property="og:site_name" content="My Blog">
+  <meta property="og:title" content="Aloha">
+  <meta property="og:description" content="Lowkey is a Clean and Simple Hugo theme inspired by Adam Wathan’s Website. Suitable for use as a personal blog, portofolio, etc.
+This theme uses TailwindCSS, so it’s easy to customize.
+If you are interested in using this theme, you can get it on GitHub.
+Example Description:
+IDK WHY but its not working!">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Aloha">
+<meta name="twitter:description" content="Hello">
 
-
-<div class="flex-none w-20 h-20 rounded-full overflow-hidden">
-  <a href="http://localhost:1313/">
-    <img
-      srcset="/img/profile-picture_hu_30246a57bda6fc9c.jpg 80w"
-      src="/img/profile-picture.jpg"
-      width="1080"
-      height="1080"
-      alt="TITLE IN HUGO.TOML"
-    />
-  </a>
-</div>
-
-  
-  <div class="flex flex-col gap-5">
-    <a href="http://localhost:1313/">
-  <h1 id="site-title">TITLE IN HUGO.TOML</h1>
-</a>
- 
-    <nav>
-  <ul>
-     
-    
-    <li>
-      <a href="/" class=" active ">
-        Home
-      </a>
-    </li>
-    
-    <li>
-      <a href="/about" class="">
-        About me
-      </a>
-    </li>
-    
-    <li>
-      <a href="/categories" class="">
-        Categories
-      </a>
-    </li>
-    
-    <li>
-      <a href="/tags" class="">
-        Tags
-      </a>
-    </li>
-    
-  </ul>
-</nav>
-
-  </div>
-</header>
-
-      <button class="toggle-theme" aria-label="Toggle Theme" title="Toggle Theme" onclick="toggleTheme()">
-  <span class="theme-icon light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
-</svg> </span>
-  <span class="theme-icon dark"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
-</svg> </span>
-</button>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const theme = localStorage.getItem('theme');
-
-    if (!theme || theme === 'light') {
-      setTheme('light');
-    } else {
-      setTheme(theme);
-    }
-  });
-
-  function setTheme(theme) {
-    const html = document.querySelector('html');
-    localStorage.setItem('theme', theme);
-
-    if (theme === 'light') {
-      if (html.classList.contains('dark')) {
-        document.querySelector('html').classList.remove('dark');
-      }
-
-      document.querySelector('.theme-icon.light').style.display = 'none';
-      document.querySelector('.theme-icon.dark').style.display = 'block';
-    } else {
-      if (!html.classList.contains('dark')) {
-        document.querySelector('html').classList.add('dark');
-      }
-
-      document.querySelector('.theme-icon.dark').style.display = 'none';
-      document.querySelector('.theme-icon.light').style.display = 'block';
-    }
-  }
-
-  function toggleTheme() {
-    const theme = localStorage.getItem('theme');
-
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  }
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "My Blog",
+  "url": "https://blog.daylo.dev/",
+  "description": "Hello",
+  "logo": "https://blog.daylo.dev/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
 </script>
-    </div>
-  
-    <main id="content"> 
+</head>
 
-<div class="py-2 flex flex-col gap-1">
-  <h3 class="title-small">Aloha</h3>
-</div>
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
 
-    <section><p>Lowkey is a Clean and Simple Hugo theme inspired by <a href="https://adamwathan.me/">Adam Wathan&rsquo;s</a> Website. Suitable for use as a personal blog, portofolio, etc.</p>
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://blog.daylo.dev/" accesskey="h" title="My Blog (Alt + H)">My Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://blog.daylo.dev/" title="Home">
+                    <span class="active">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://blog.daylo.dev/about" title="About me">
+                    <span>About me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<div class="post-content"><p>Lowkey is a Clean and Simple Hugo theme inspired by <a href="https://adamwathan.me/">Adam Wathan&rsquo;s</a> Website. Suitable for use as a personal blog, portofolio, etc.</p>
 <p>This theme uses TailwindCSS, so it&rsquo;s easy to customize.</p>
 <p>If you are interested in using this theme, you can get it on <a href="#">GitHub</a>.</p>
 <p><strong>Example Description:</strong></p>
 <p>IDK WHY but its not working!</p>
- </section>
 
 
-    </main><footer class="pt-5 pb-10 grid gap-3 sm:grid-cols-2">
-    <div class="text-xs font-semibold text-gray-500 order-2 sm:order-1">
-  © 2025 —
-  <a href="http://localhost:1313/">TITLE IN HUGO.TOML</a> 
-  <span class="font-normal">with</span>
-  <a
-    href="https://github.com/nixentric/Lowkey-Hugo-Theme"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Lowkey
-  </a>
 </div>
 
-    <div class="order-1 sm:order-2">
-  <ul class="flex sm:justify-end gap-5">
-    
-    
-    <li>    
-      <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
-    </li>
-    
-    
-  </ul>
-</div>
+<article class="first-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Colton
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A Woof This is a test.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to Colton" href="https://blog.daylo.dev/posts/colton-sucks/"></a>
+</article>
 
-</footer></body>
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Check This is a test.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to test" href="https://blog.daylo.dev/posts/dev-blog/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Next This is a test.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to test" href="https://blog.daylo.dev/posts/next-note/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Next This is a test.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-04 00:00:00 +0000 UTC'>April 4, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to test" href="https://blog.daylo.dev/posts/notecopy/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://blog.daylo.dev/">My Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
 </html>
