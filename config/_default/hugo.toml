@@ -1,4 +1,0 @@
-baseURL = "https://blog.daylo.dev/"
-title = "My Blog"
-pagerSize = 5
-theme = "PaperMod"
