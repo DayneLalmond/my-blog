@@ -7,3 +7,6 @@
 [submodule "themes/freshpink"]
 	path = themes/freshpink
 	url = https://github.com/DayneLalmond/my-blog.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
